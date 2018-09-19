@@ -54,7 +54,7 @@ public class UserActivity extends AppCompatActivity {
         dashboard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                Intent i = new Intent(getApplicationContext(), ScrollingActivity.class);
                 startActivity(i);
             }
         });
