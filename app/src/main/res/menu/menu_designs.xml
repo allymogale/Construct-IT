@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/View_Plan"
+        android:orderInCategory="100"
+        android:title="@string/View_Plan" />
+    <item
+        android:id="@+id/View_Summary"
+        android:orderInCategory="101"
+        android:title="@string/View_Summary" />
+
+</menu>
